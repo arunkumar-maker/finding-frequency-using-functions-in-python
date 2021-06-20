@@ -1,0 +1,12 @@
+def most_frequent():
+    
+    for i in str1:
+        if i in d1:
+            d1[i] = d1[i] + 1
+        else:
+            d1[i] = 1
+
+str1 = input('enter any string to find the frequency of each character: ')
+d1=dict()
+t=most_frequent()
+print(d1)
